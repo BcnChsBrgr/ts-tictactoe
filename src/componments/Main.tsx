@@ -44,7 +44,7 @@ export const Main: React.FC<headerInterface> = ({ title }: headerInterface) => {
                 }
             }
         });
-    }, [currentUser]);
+    }, [boardData, currentUser]);
 
     return (
         <Grid item xs={12} md={8}>
