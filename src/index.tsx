@@ -1,6 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import Game from "./componments/Game";
 import reportWebVitals from "./reportWebVitals";
 
